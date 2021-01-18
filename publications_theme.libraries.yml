@@ -1,0 +1,14 @@
+publications_theme:
+  css:
+    theme:
+      css/style.css: {}
+
+drupal.publications_theme:
+  js:
+    js/drupal.publications_theme.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - publications_theme/framework
+

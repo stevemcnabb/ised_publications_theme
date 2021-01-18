@@ -1,0 +1,55 @@
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+
+@import 'global/variables';
+//@import 'global/forms';
+
+//@import 'layouts/header';
+//@import 'layouts/footer';
+//@import 'layouts/front';
+//@import 'layouts/sidebar';
+//@import 'components/draft-pending-views';
+//@import 'components/employment_opportunity_page';
+//@import 'components/blocks/blocks_global';
+//@import 'components/_carousel';
+//@import 'components/iframe';
+//@import 'components/node';
+//@import 'components/newsblock';
+//@import 'components/search';
+//@import 'components/socialmedia';
+//@import 'components/status_message';
+//@import 'components/video_embed';
+//@import 'pages/landing_page';
+//@import 'pages/all_pages';
+//@import 'legacy/classes';
+//@import 'views/_viewname_view';
+
+html[lang="fr"] .english-only {
+  display: none !important;
+}
+
+html[lang="en"] .french-only {
+  display: none !important;
+}
+
+body > div > div.container {
+  border-right: 1px solid $wxttheme-border;
+  border-left: 1px solid $wxttheme-border;
+}
+
+#wb-bnr {
+  background: $wxttheme-button-color !important;
+}
+
+.icon.glyphicon.glyphicon-log-in
+{
+  min-height: 20px;
+}
+
+.region.region-content-footer
+{
+  padding-top: 20px;
+}
+
