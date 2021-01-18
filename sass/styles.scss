@@ -46,8 +46,26 @@ body > div > div.container {
 
 
 #wb-bnr,  #wb-bnr .container {
-  background: $wxttheme-button-color !important;
+  background: $wxttheme-button-color;
 }
+
+#wb-bnr .container {
+  background: $wxttheme-button-color url('/sites/default/themes/ised_publications_theme/images/533_wet4-banner_2.jpg') !important;
+}
+
+
+
+
+header.navbar-default p.navbar-text, A.navbar-brand:hover { 
+  color: white; text-decoration: underline !important; 
+}
+
+A.navbar-brand, A.navbar-brand:visited { 
+  text-decoration: none !important;
+  color: white !important;
+  font-size: 1.6em;
+}
+
 
 
 .icon.glyphicon.glyphicon-log-in
