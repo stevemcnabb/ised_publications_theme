@@ -1,9 +1,9 @@
-publications_theme:
+global:
   css:
     theme:
-      css/style.css: {}
+      css/styles.css: {}
 
-drupal.publications_theme:
+drupal.publications-theme:
   js:
     js/drupal.publications_theme.js: {}
   dependencies:

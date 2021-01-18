@@ -39,9 +39,16 @@ body > div > div.container {
   border-left: 1px solid $wxttheme-border;
 }
 
-#wb-bnr {
+
+#wb-bar .container .row:first-of-type {
+  background: white;
+}
+
+
+#wb-bnr,  #wb-bnr .container {
   background: $wxttheme-button-color !important;
 }
+
 
 .icon.glyphicon.glyphicon-log-in
 {
@@ -53,3 +60,93 @@ body > div > div.container {
   padding-top: 20px;
 }
 
+
+
+
+header.navbar-default { 
+
+  a.navbar-brand, p.navbar-text {
+    color: white;
+  }
+}
+
+
+body.path-frontpage {
+  div.region-help {
+    .col-md-4, .col-md-8 {
+      //padding-left: 0;
+    }
+    section.block-entity-blockmedia {
+      padding-right: 0;
+      margin-left: 0;
+    }
+  }
+  article h2:first-child {
+    display: none;
+  }
+}
+
+ 
+
+body main {
+  ul, ol {
+    padding-left: 2.5em;
+  }
+}
+ 
+/*
+@media screen and (max-width: 991px) {
+  #wb-bnr {
+    background-image: -webkit-linear-gradient(#77bc1f, #77bc1f, #007852) !important;
+    background-image: linear-gradient(#77bc1f, #77bc1f, #007852) !important;
+  }
+  .region-banner {
+    a.name.navbar-brand {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font-size: x-large;
+      height: auto;
+    }
+  }
+  #wb-glb-mn .pnl-btn a {
+    font-size: 1.4em;
+  }
+  #wb-glb-mn .pnl-btn span .glyphicon-th-list {
+    padding-left: 0;
+  }
+  #mb-pnl nav {
+    a.mb-item[href *= "structure"] {
+      display: none;
+    }
+  }
+  section.lng-ofr {
+    ul.list-inline {
+      a[href *= "languageswitcher"] {
+        display: none;
+      }
+    }
+  }
+*/
+
+  /* Canada Government Logo Size */
+  /*
+  #agrisource-wmms {
+    height: 2.35em;
+    left: 15px;
+    margin-top: -8px;
+    position: absolute;
+    top: -2.2em;
+  }
+  #wb-bnr {
+    background-color: $agrisource-button-color;
+    background-image: none;
+   .container .row.agri-banner-row {
+      position: relative;
+    }
+
+ 
+
+  }
+}
+
+*/

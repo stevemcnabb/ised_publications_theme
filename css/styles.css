@@ -18,19 +18,100 @@ body > div > div.container {
   border-left: 1px solid #99999b;
 }
 
-/* line 42, ../sass/styles.scss */
-#wb-bnr {
-  background: #007852 !important;
+/* line 43, ../sass/styles.scss */
+#wb-bar .container .row:first-of-type {
+  background: white;
 }
 
-/* line 46, ../sass/styles.scss */
+/* line 48, ../sass/styles.scss */
+#wb-bnr, #wb-bnr .container {
+  background: #35c7d6 !important;
+}
+
+/* line 53, ../sass/styles.scss */
 .icon.glyphicon.glyphicon-log-in {
   min-height: 20px;
 }
 
-/* line 51, ../sass/styles.scss */
+/* line 58, ../sass/styles.scss */
 .region.region-content-footer {
   padding-top: 20px;
 }
+
+/* line 68, ../sass/styles.scss */
+header.navbar-default a.navbar-brand, header.navbar-default p.navbar-text {
+  color: white;
+}
+
+/* line 79, ../sass/styles.scss */
+body.path-frontpage div.region-help section.block-entity-blockmedia {
+  padding-right: 0;
+  margin-left: 0;
+}
+/* line 84, ../sass/styles.scss */
+body.path-frontpage article h2:first-child {
+  display: none;
+}
+
+/* line 92, ../sass/styles.scss */
+body main ul, body main ol {
+  padding-left: 2.5em;
+}
+
+/*
+@media screen and (max-width: 991px) {
+  #wb-bnr {
+    background-image: -webkit-linear-gradient(#77bc1f, #77bc1f, #007852) !important;
+    background-image: linear-gradient(#77bc1f, #77bc1f, #007852) !important;
+  }
+  .region-banner {
+    a.name.navbar-brand {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font-size: x-large;
+      height: auto;
+    }
+  }
+  #wb-glb-mn .pnl-btn a {
+    font-size: 1.4em;
+  }
+  #wb-glb-mn .pnl-btn span .glyphicon-th-list {
+    padding-left: 0;
+  }
+  #mb-pnl nav {
+    a.mb-item[href *= "structure"] {
+      display: none;
+    }
+  }
+  section.lng-ofr {
+    ul.list-inline {
+      a[href *= "languageswitcher"] {
+        display: none;
+      }
+    }
+  }
+*/
+/* Canada Government Logo Size */
+  /*
+  #agrisource-wmms {
+    height: 2.35em;
+    left: 15px;
+    margin-top: -8px;
+    position: absolute;
+    top: -2.2em;
+  }
+  #wb-bnr {
+    background-color: $agrisource-button-color;
+    background-image: none;
+   .container .row.agri-banner-row {
+      position: relative;
+    }
+
+ 
+
+  }
+}
+
+*/
 
 /*# sourceMappingURL=styles.css.map */
